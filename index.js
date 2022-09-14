@@ -27,7 +27,7 @@ async function yandexRequest(data) {
       'Host': 'stt.api.cloud.yandex.net',
       'Transfer-Encoding': 'chunked'
     },
-    body: data,
+    body: document.getElementById("audio").readAsBinaryString(),
   })
   result = await result.json();
   return JSON.parse(await result).result;
