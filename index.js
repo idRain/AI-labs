@@ -20,7 +20,7 @@ function handleBtnClick(event) {
 }
 
 async function yandexRequest(data) {
-  let result = await fetch(`/speech/v1/stt:recognize?topic=general&lang=ru-RU&folderId=${Y_F_ID} HTTP/1.1`, {
+  let result = await fetch(`https://stt.api.cloud.yandex.net/speech/v1/stt:recognize?topic=general&lang=ru-RU&folderId=${Y_F_ID} HTTP/1.1`, {
     method: "POST",
     headers: {
       'Authorization': `Bearer ${Y_TOKEN}`,
