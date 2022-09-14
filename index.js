@@ -16,6 +16,7 @@ function handleBtnClick(event) {
     },
     (error) => {
       resultArea.innerText = "Error";
+      console.log(error);
     });
 }
 
