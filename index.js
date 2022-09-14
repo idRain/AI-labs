@@ -25,6 +25,7 @@ async function yandexRequest(data) {
     headers: {
       'Authorization': `Bearer ${Y_TOKEN}`,
       'Host': 'stt.api.cloud.yandex.net',
+      'Transfer-Encoding': 'chunked'
     },
     body: data,
   })
