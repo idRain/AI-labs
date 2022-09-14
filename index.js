@@ -28,7 +28,7 @@ async function yandexRequest(data) {
       'Host': 'stt.api.cloud.yandex.net',
       'Transfer-Encoding': 'chunked'
     },
-    body: document.getElementById("audio").readAsBinaryString(),
+    body: document.getElementById("audio").value,
   })
   return result;
 }
