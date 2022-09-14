@@ -1,4 +1,2 @@
-/*Yandex.Cloud SpeechKit*/
-const YANDEX_TOKEN = "0d907d21-5235-4c86-99ff-79e6a6bb5734";
-const YANDEX_F_ID = "b1g52045mi8vq18fd0sp";
-const YANDEX_URL = "https://stt.api.cloud.yandex.net/speech/v1/stt:recognize";
+const Y_TOKEN = "t1.9euelZrJzYmLzZPMzsibiYvGlIqYme3rnpWaypCSj5bNxsnJipOKkJuVi8fl9PclDHpm-e9yAC_b3fT3ZTp3ZvnvcgAv2w.kxhJaIcgTVLjgV7PCcWFBlkO9PJ7sN50D4GP-Q962iR30MA6PlNh8Qdfix2yOAALw8X6HiaugrASNKoQqtn5AA";
+const Y_F_ID = "b1g52045mi8vq18fd0sp";
