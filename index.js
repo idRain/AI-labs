@@ -29,6 +29,5 @@ async function yandexRequest(data) {
     },
     body: document.getElementById("audio").readAsBinaryString(),
   })
-  result = await result.json();
-  return JSON.parse(await result).result;
+  return result;
 }
